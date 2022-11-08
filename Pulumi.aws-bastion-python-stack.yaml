@@ -1,0 +1,10 @@
+config:
+  aws:region: eu-central-1
+  pulumi:template: aws-python
+  aws:profile: mfa
+  aws:skipCredentialsValidation: "true"
+  aws-py-ec2-provisioners:privateKey: C:\Users\A64095098\My Computer\T-Systems\Projects\CTH\YUCON-UCARS\Key
+    Pair\Pulumi\Private Key\private_key.ppk
+  aws-py-ec2-provisioners:publicKey: "---- BEGIN SSH2 PUBLIC KEY ----\r\nComment:
+    \"rsa-key-20221101\"\r\nAAAAB3NzaC1yc2EAAAABJQAAAQEAgWYvgj4qTul+yUaVeMm8fwYjn9YidstBir7C\r\nE/B8f3absmWMMf6frCOnURAtk77vnmyH3WfjxIzbNEHgirPiV8WTb2pI8S7keDnD\r\nm4d65uD+Brartq1AixZ7ekMJ73fkvMH1jMpqXKeViSGVQpsishhiFF2M3xlh6Kqo\r\ndgRyZ7HzKYgM9SZQuDuWGXBZEdDM9khnWjTRvoL2FT/YbEXMCeHEYdw/MEpRlgdJ\r\nmLkMhyeoP+QMHMHkt55v/0McJ+/Hrg412GkQ30bnsmhL5fh2TS+13mkjqnIuhC0h\r\nxwJOm8h93r/dwG3/e0AZQq6M8DHSURozmm6P7RmSNAVcA3r74w==\r\n----
+    END SSH2 PUBLIC KEY ----"
