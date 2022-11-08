@@ -1,7 +1,6 @@
 config:
   aws:region: eu-central-1
   pulumi:template: aws-python
-  aws:profile: mfa
   aws:skipCredentialsValidation: "true"
   aws-py-ec2-provisioners:privateKey: C:\Users\A64095098\My Computer\T-Systems\Projects\CTH\YUCON-UCARS\Key
     Pair\Pulumi\Private Key\private_key.ppk
